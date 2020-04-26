@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 } 
 
 html::-webkit-scrollbar {
-    width: 30px;
+    width: 20px;
     height: 30px;
 }
 
