@@ -1,16 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Бизнес-школа</title>
+
+	<!-- bootstrap
+	================================================== -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css">
+
+	<!-- text
+	================================================== -->
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700|Sintony:400,700&display=swap&subset=cyrillic,latin-ext,vietnamese" rel="stylesheet">
+
+	<!-- CSS
+   ================================================== -->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
+
+	<!-- script
+   ================================================== -->
 	<script src="js/wow.min.js"></script>
 	<script>
     	new WOW().init();
     </script>
+    <script src="js/modernizr.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
 	<header id="header" class="header">
@@ -22,35 +37,46 @@
 					</div>
 					<div class="col-lg-6">
 						<nav>
-							<ul class="menu d-flex justify-content-between wow fadeInDown">
-								<li class="menu_item">
-									<a href="#">
+							<ul class="menu d-flex justify-content-between">
+								<li class="menu_item" >
+									<a href="#header" class="scrollTop">
 										Главная
 									</a>
 								</li>
 								<li class="menu_item">
-									<a href="#">
+									<a href="#about" class="scrollTop">
 										О школе
 									</a>
 								</li>
 								<li class="menu_item">
-									<a href="#">
+									<a href="#sd" class="scrollTop">
 										Цена
 									</a>
 								</li>
 								<li class="menu_item">
-									<a href="#">
+									<a href="#footer" class="scrollTop">
 										Контакты
 									</a>
 								</li>
 							</ul>
 						</nav>
 					</div>
+
 					<div class="col-lg-3">
 						<button class="book cta d-flex justify-content-center">
 							<span class="book_icon">
+
 							</span>
+							<a href="#" class="dp">
 							Войти
+							<style>
+   								a:hover { 
+    							color: #000000; 
+    							text-decoration: none;
+   								} 
+  							</style>
+						</a>
+
 						</button>
 					</div>
 				</div>
@@ -109,13 +135,19 @@
 							Обучение
 						</h2>
 						<p class="history__text1">
-							Программа профессиональной переподготовки Synergy Mini MBA разработана для специалистов и руководителей среднего звена, которые хотят систематизировать имеющиеся знания или познакомиться с ключевыми аспектами новой для себя сферы управленческой деятельности.
+							Программа профессиональной переподготовки MBA разработана для специалистов и руководителей среднего звена, которые хотят систематизировать имеющиеся знания или познакомиться с ключевыми аспектами новой для себя сферы управленческой деятельности.
 						</p>
 						<p class="history__text2">
 							Обучение проходит в онлайн-формате с использованием примеров из практики крупнейших российских и международных компаний. Вы получите целый набор инструментов повышения эффективности, которые сразу же сможете внедрить в свою работу.
 						</p>
 						<a href="#" class="podrobnee history__button">
 							Подробнее
+							<style>
+   								a:hover { 
+    							color: #000000; 
+    							text-decoration: none;
+   								} 
+  							</style>
 						</a>
 					</div>
 				</div>
@@ -137,6 +169,77 @@
 		</div>
 	</section>
 
+	
+				<div class="sec-title text-center bgg" id="sd">
+							<h2>Цена</h2>
+							<p>Общая цена за обучения</p>
+						</div>		
+
+
+
+			<section id="price " class="bg">
+				<div class="container">
+					<div class="row bg">
+					
+						
+						
+						<div class="col-md-4 ">
+							<div class="price-table text-center">
+								<span>3 месяца</span>
+								<div class="value">
+									
+									<span>34 000</span><br>
+									<span>рублей</span>
+								</div>
+								<ul>
+									<li>Начало обучения: 1 число каждого месяца.</li>
+									<li>Срок окончания приема документов за 2 недели до начала обучения.</li>
+								
+									<li><a href="#">Записаться</a></li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-md-4 " data-wow-delay="0.4s">
+							<div class="price-table featured text-center">
+								<span>12 месяцев</span>
+								<div class="value">
+								
+									<span>184 000</span><br>
+									<span>рублей</span>
+								</div>
+								<ul>
+									<li>Начало обучения: 1 число каждого месяца.</li>
+									<li>Срок окончания приема документов за 2 недели до начала обучения.</li>
+									<li><a href="#">Записаться</a></li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-md-4 " data-wow-delay="0.8s">
+							<div class="price-table text-center">
+								<span>6 месяцев</span>
+								<div class="value">
+								
+									<span>102 000</span><br>
+									<span>рублей</span>
+								</div>
+								<ul>
+									<li>Начало обучения: 1 число каждого месяца.</li>
+									<li>Срок окончания приема документов за 2 недели до начала обучения.</li>
+									<li><a href="#">Записаться</a></li>
+								</ul>
+							</div>
+						</div>
+		
+					</div>
+				</div>
+			</section>
+			
+
+
+	
+
 	<section id="special" class="special">
 		<div class="container">
 			
@@ -148,6 +251,50 @@
 			
 		</div>
 	</section>
+
+
+
+
+
+
+<footer id="footer" class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<ul class="socials d-flex justify-content-center">
+						<li class="socials__item socials__item_fb">
+							<a href="https://www.facebook.com/"></a>
+						</li>
+						<li class="socials__item socials__item_tw">
+							<a href="https://twitter.com/"></a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="line"></div>
+				</div>
+				<div class="col-lg-4">
+					<div class="credits">
+						МосГУ 2020
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="line"></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+
+<script type="js/bootstrap/bootstrap.min.js"></script>
+
+
+
+
 </body>
 </html>
-<script type="js/bootstrap/bootstrap.min.js"></script>
+
+
