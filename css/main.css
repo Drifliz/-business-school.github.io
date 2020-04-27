@@ -120,7 +120,7 @@ html::-webkit-scrollbar-track {
 	background: url(../img/124.jpg);
 	height: 687px;
 	background-size: 100%;
-	opacity: 0.95;
+	opacity: 0.90;
 
 }
 
@@ -136,8 +136,8 @@ html::-webkit-scrollbar-track {
 
 .title_2 {
 	font-size: 50px;
-	color: #fea100 ;
-	margin-top: -15px;
+	color: #F90F4A ;
+	margin-top: -25px;
 }
 
 /*--------*/
